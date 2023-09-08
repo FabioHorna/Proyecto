@@ -1,0 +1,47 @@
+/* Testimonio.css */
+
+.testimonio {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+}
+
+.imagen-perfil {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.imagen-perfil img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.comentario {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.calificacion {
+  font-size: 1.2rem;
+  color: #f8d100; /* Color de las estrellas */
+  margin-bottom: 10px;
+}
+
+.estrella {
+  color: gold; /* Color de las estrellas */
+  margin-right: 2px; /* Espacio entre las estrellas */
+  font-size: 20px; /* Tamaño de las estrellas */
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
