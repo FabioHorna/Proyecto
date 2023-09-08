@@ -1,0 +1,60 @@
+/* Footer.css */
+
+/* Estilos para el contenedor del componente Footer */
+.footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+  padding: 20px; /* Espaciado interior */
+  display: flex; /* Mostrar elementos en fila */
+  justify-content: space-between; /* Espaciado entre elementos */
+  align-items: center; /* Alinear verticalmente en el centro */
+}
+
+/* Estilos para la sección izquierda del footer (logo y texto de copyright) */
+.left-section {
+  display: flex; /* Mostrar elementos en fila */
+  align-items: center; /* Alinear verticalmente en el centro */
+}
+
+.nimbus-logo {
+  display: flex; /* Mostrar elementos en fila */
+  align-items: center; /* Alinear verticalmente en el centro */
+}
+
+.nimbus-logo img {
+  width: 40px; /* Ancho del logo */
+  height: 40px; /* Altura del logo */
+  margin-right: 10px; /* Espacio a la derecha del logo */
+}
+
+/* Estilos para la sección derecha del footer (iconos de redes sociales y formulario de suscripción) */
+.right-section {
+  display: flex; /* Mostrar elementos en fila */
+  align-items: center; /* Alinear verticalmente en el centro */
+}
+
+.social-icons {
+  margin-right: 20px; /* Espacio a la derecha de los iconos de redes sociales */
+}
+
+.social-icons a {
+  color: white; /* Color de los iconos de redes sociales */
+  font-size: 20px; /* Tamaño de fuente de los iconos de redes sociales */
+  margin-right: 10px; /* Espacio entre los iconos */
+  text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+.subscribe-form input {
+  padding: 5px; /* Espaciado dentro del campo de entrada de correo electrónico */
+  border: none; /* Sin borde en el campo de entrada */
+  border-radius: 5px; /* Borde redondeado en el campo de entrada */
+  margin-right: 10px; /* Espacio a la derecha del campo de entrada */
+}
+
+.subscribe-form button {
+  background-color: #007bff; /* Color de fondo del botón "Submit" */
+  color: white; /* Color del texto del botón "Submit" */
+  border: none; /* Sin borde en el botón "Submit" */
+  border-radius: 5px; /* Borde redondeado en el botón "Submit" */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}

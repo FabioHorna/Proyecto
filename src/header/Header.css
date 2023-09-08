@@ -1,0 +1,66 @@
+/* Header.css */
+
+/* Estilos para el contenedor del encabezado */
+.header {
+  background-color: #f8f8f8; /* Color de fondo del encabezado */
+  padding: 20px; /* Espaciado interior uniforme */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  display: flex;
+  justify-content: space-between; /* Espacio uniforme entre elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para el logo */
+.logo img {
+  max-width: 100px; /* Tamaño máximo del logo */
+  height: auto;
+  margin-right: 20px; /* Espacio a la derecha del logo */
+}
+
+/* Estilos para el menú de navegación */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+  justify-content: center; /* Centrar horizontalmente las opciones del menú */
+}
+
+.menu-item {
+  margin-right: 20px; /* Espacio entre las opciones del menú */
+  transition: opacity 0.3s ease-in-out; /* Transición de opacidad al pasar el ratón */
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #333; /* Color del texto del menú */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.menu-item:hover {
+  opacity: 0.7; /* Opacidad reducida al pasar el ratón */
+}
+
+/* Estilos para los botones Login y Register */
+.login-register {
+  display: flex;
+  align-items: center;
+}
+
+.login-button,
+.register-button {
+  background-color: #007bff; /* Color de fondo de los botones */
+  color: white; /* Color del texto de los botones */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Transición de color de fondo al pasar el ratón */
+  font-weight: bold; /* Texto en negrita */
+  border-radius: 20px; /* Hacer los botones redondos o suavizados */
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
